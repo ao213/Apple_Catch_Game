@@ -1,5 +1,3 @@
-from typing import Tuple
-
 from entities.entity import entity
 from setting import MAX_HP
 
