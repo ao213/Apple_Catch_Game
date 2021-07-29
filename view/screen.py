@@ -34,13 +34,8 @@ class Screen:
         Args:
 
         Object (Object): 描画するためのオブジェクトクラス
-        -------
-        Returns:
-
-        -------
-        note:
         """
-        #チャックポイント3,4
+        #チャックポイント2
         #変数imageの名前の付け方はimgでも良いのでは？PEP8で略して書くのは大丈夫なはず
         #ただ、比較的分かりやすい、英語スペルの勉強になるから略さずに書くほうが良いのかな？
         #画像の読み込みで変数を直接参照してるがget_imageってメソッドを作って返すのはどうか？
@@ -64,9 +59,9 @@ class Screen:
         Name: draw_hud
         Explain: HUDの体力ゲージ、ポイント数の描画
         """
+        #チェックポイント3
         #start_line_xやline_yを定数としてsettingに持たせるのはありか？
         #ただ、HUDの要素だから持たせる必要はないと思うけど。。。
-        #チェックポイント_2
         start_lien_x = 27
         line_y = 636
         hp_par = np.round(player.get_hp() / MAX_HP, 2)
@@ -111,11 +106,3 @@ class Screen:
             return 130
         else:
             return 140
-
-
-
-
-
-
-
-
