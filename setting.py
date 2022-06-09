@@ -1,26 +1,25 @@
-#game_setting#
+#画像パス
+LOGO_PATH = 'img/fruit_apple.png'
+BG_PATH = 'img/apple_bg.jpg'
+HUD_BG_PATH = 'img/hud.png'
+GAMEOVER_BG_PATH = 'img/GAME OVER.png'
 
-screen_width = 900
-screen_height = 800
+
+#画面設定#
+SCREEN_WIDTH = 900
+SCREEN_HEIGHT = 800
+CAPTION = 'Apple_Catch_Game'
 
 
 #apple_setting#
-apples = []
-max_apple = 10
-screen_apple_list = [i for i in range(max_apple)]
+APPLE_JSON = 'apple.json'
+MAX_APPLE_NUM = 10
 
 
 #player_setting#
-score = 0
-point = 0
-HP = 100
-hp = 100
+MAX_HP = 100
 
-#hud_setting#
-line_x = 873
-line = 873
-
-
-#box_setting#
-boxs = []
+#HUD設定#
+LINE_X = 873
+HUD_TEXT_COLOR = (127,195,156)
     

@@ -1,0 +1,23 @@
+{
+    "サンふじ": {
+      "down_speed": 1,
+      "point": 1,
+      "spawn_rate": 10,
+      "image": "fuji.png",
+      "damage_point": 1
+    },
+    "王林": {
+      "down_speed": 2,
+      "point": 2,
+      "spawn_rate": 10,
+      "image": "ourin.png",
+      "damage_point": 5
+    },
+    "青り４号": {
+      "down_speed": 3,
+      "point": 5,
+      "spawn_rate": 10,
+      "image": "aori4gou.png",
+      "damage_point": 10
+    }
+}
